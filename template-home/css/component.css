@@ -1,3 +1,35 @@
+.ec-circle{
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+	text-align: center;
+	overflow: hidden;
+	font-family:'Raleway', Georgia, serif;
+	background: #fff url(../img/johnny-pham.jpg) no-repeat center center;
+	box-shadow: 
+		inset 0 0 1px 230px rgba(0,0,0,0.6),
+		inset 0 0 0 7px #fff;
+	transition: box-shadow 400ms ease-in-out;
+	display: block;
+	outline: none;
+	background-size: cover;
+}
+.ec-circle-hover{
+    box-shadow: 
+		inset 0 0 0 0 rgba(0,0,0,0.6),
+		inset 0 0 0 10px #fff,
+		0 0 5px rgba(0,0,0,0.3);
+}
+.ec-circle:hover{
+    box-shadow: 
+		inset 0 0 0 0 rgba(0,0,0,0.6),
+		inset 0 0 0 10px #c18167,
+		0 0 5px rgba(0,0,0,0.3);
+}
+
 /* Header */
 .large-header {
 	position: relative;
@@ -47,7 +79,7 @@
 }
 
 .demo-2 .main-title {
-	font-family: 'Clicker Script', cursive;
+	font-family: 'Raleway', cursive;
 	font-weight: normal;
 	font-size: 8em;
 	padding-left: 10px;
@@ -75,7 +107,7 @@
 	padding: 10px 40px;
 	border: 10px double #f9f1e9;
 	text-transform: uppercase;
-	font-family: Londrina Outline, sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 
 .demo-4 .main-title {

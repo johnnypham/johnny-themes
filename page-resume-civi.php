@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: CIVI Page
+ * Template Name: Resume-Civi Page
  *
  * Description: Johnny Dev
  * 
@@ -14,19 +14,11 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
-		<meta name="viewport" content="width=device-width, initial-scale=1"> 
-		<title>Portfolio | Johnny Pham</title>
-		<meta name="description" content="Four Boxes Slideshow: Recreating the background image slideshow seen on Atelier Serge Thoroval's website" />
-		<meta name="keywords" content="background slideshow, boxes, background image, four panels, css, tutorial" />
-		<meta name="author" content="Codrops" />
-		<link rel="shortcut icon" href="../favicon.ico">
 		<link href='http://fonts.googleapis.com/css?family=Raleway:200,400,600' rel='stylesheet' type='text/css'>
 
 	
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-
+<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/menu-primary/fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
 		<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/portfolio/css/component.css" />
 		<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/hover/css/style.css" />
 		<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/portfolio/css/default.css" />
@@ -44,7 +36,7 @@
 
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
-<link rel="stylesheet" href="http://kamsolutions.pl/projects/resume/css/font-awesome.css">
+
 <link rel="stylesheet" href="http://kamsolutions.pl/projects/resume/css/main.css">
 
 <!-- Latest compiled and minified JavaScript -->
@@ -58,10 +50,10 @@
           <div id="photo-header" class="text-center">
             <!-- PHOTO (AVATAR) -->
             <div id="photo">
-              <img src="img/avatar.jpg" alt="avatar">
+              <img src="<?php bloginfo('template_directory'); ?>/img/johnny-pham.jpg" alt="Vien Pham">
             </div>
             <div id="text-header">
-              <p>Nguoi ta noi banh my phai co pate dan ong phai co mau de trong nguoi</p>
+              <p style="display:none">Nguoi ta noi banh my phai co pate dan ong phai co mau de trong nguoi</p>
               <h1>Hello,<br> my name is <span>Vien</span><sup>24yo</sup> and this is my resume/cv</h1>
             </div>
           </div>
@@ -79,30 +71,37 @@
             <h2>Education</h2>
             <ul id="education" class="clearfix">
               <li>
-                <div class="year pull-left">1990</div>
+                <div class="year pull-left">1991</div>
                 <div class="description pull-right">
-                  <h3>I was born in Katowice</h3>
+                  <h3>I was born in VietNam</h3>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, exercitationem, totam, dolores iste dolore est aut modi.</p>
                 </div>
               </li>
               <li>
-                <div class="year pull-left">2005</div>
+                <div class="year pull-left">2004</div>
                 <div class="description pull-right">
-                  <h3>Secondary school specializing in artistic</h3>
+                  <h3>Start study office software of microsoft</h3>
                   <p>Eos, explicabo, nam, tenetur et ab eius deserunt aspernatur ipsum ducimus quibusdam quis voluptatibus.</p>
                 </div>
               </li>
               <li>
-                <div class="year pull-left">2009</div>
+                <div class="year pull-left">2010</div>
                 <div class="description pull-right">
-                  <h3>First level graduation in Graphic Design</h3>
+                  <h3>First level graduation in technologyn</h3>
                   <p>Aspernatur, mollitia, quos maxime eius suscipit sed beatae ducimus quaerat quibusdam perferendis? Iusto, quibusdam asperiores unde repellat.</p>
+                </div>
+              </li>
+              <li>
+                <div class="year pull-left">2011</div>
+                <div class="description pull-right">
+                  <h3>Second level graduation in Software Developer</h3>
+                  <p>Ducimus, aliquam tempore autem itaque et accusantium!</p>
                 </div>
               </li>
               <li>
                 <div class="year pull-left">2012</div>
                 <div class="description pull-right">
-                  <h3>Second level graduation in Graphic Design</h3>
+                  <h3>Three level graduation in Software Developer</h3>
                   <p>Ducimus, aliquam tempore autem itaque et accusantium!</p>
                 </div>
               </li>
@@ -193,6 +192,11 @@
             <div class="hobby">Photography</div>
             <div class="hobby">Fitness</div>
             <div class="hobby">Programming</div>
+            <div class="hobby">Soccer</div>
+            <div class="hobby">Music</div>
+            <div class="hobby">Movies</div>
+            <div class="hobby">New Technogory</div>
+            <div class="hobby">analysis</div>
           </div>
         </div>
       </div>

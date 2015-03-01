@@ -15,7 +15,18 @@
 <html lang="en" class="no-js">
 	<head>
 		<link href='http://fonts.googleapis.com/css?family=Raleway:200,400,600' rel='stylesheet' type='text/css'>
+    <!--Menu-->
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/menu-primary/css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/menu-primary/css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/menu-primary/fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/menu-primary/css/menu_bubble.css" />
+    <script src="<?php bloginfo('template_directory'); ?>/menu-primary/js/snap.svg-min.js"></script>
 
+
+    <!--[if IE]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--Menu--> 
 	
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/menu-primary/fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
@@ -41,10 +52,39 @@
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-	</head>
-	<body>
+<style>
+.menu-wrap a {
+ font-size: 18.5px;
+text-decoration: none;
 
-		<div class="container">
+}
+</style>
+	</head>
+	<body style="background:#fff">
+    <div class="container-1">
+      <div class="menu-wrap">
+        <nav class="menu">
+          <div class="icon-list">
+            <a href="http://vienpn.16mb.com/"><i class="fa fa-home"></i><span>Home</span></a>
+            <a href="http://vienpn.16mb.com/?page_id=5"><i class="fa fa-archive"></i><span>Profile</span></a>
+            <a href="http://vienpn.16mb.com/?page_id=14"><i class="fa fa-file-o"></i><span>Resume</span></a>
+            <a href="#"><i class="fa fa-newspaper-o"></i><span>News</span></a>
+            <a href="#"><i class="fa fa-inbox fa-envelope-o"></i><span>Contact</span></a>
+            <a href="#"><i class="fa fa-fw fa-bar-chart-o"></i><span>Analytics</span></a>
+
+            <a href="#"><i class="fa fa-fw fa-newspaper-o"></i><span>Reading List</span></a>
+          </div>
+        </nav>
+        <button class="close-button" id="close-button">Close Menu</button>
+        <div class="morph-shape" id="morph-shape" data-morph-open="M-7.312,0H15c0,0,66,113.339,66,399.5C81,664.006,15,800,15,800H-7.312V0z;M-7.312,0H100c0,0,0,113.839,0,400c0,264.506,0,400,0,400H-7.312V0z">
+          <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 100 800" preserveAspectRatio="none">
+            <path d="M-7.312,0H0c0,0,0,113.839,0,400c0,264.506,0,400,0,400h-7.312V0z"/>
+          </svg>
+        </div>
+      </div>  
+      <button class="menu-button" id="open-button">Open Menu</button>       
+    </div>
+		<div style="height:auto;overflow: visible;" class="container">
       <div class="row">
         <div class="col-xs-12">
           <div id="photo-header" class="text-center">
@@ -165,11 +205,22 @@
             <h2>Skills</h2>
             <div class="skills">
               <div class="item-skills" data-percent="1.00" style="width: 458px;">HTML</div>
+              <div class="item-skills" data-percent="1.00" style="width: 458px;">HTML5</div>
+             <div class="item-skills" data-percent="1.00" style="width: 458px;">Bootstrap</div>
               <div class="item-skills" data-percent="0.90" style="width: 412.2px;">CSS</div>
+              <div class="item-skills" data-percent="0.90" style="width: 412.2px;">CSS3</div>
+              <div class="item-skills" data-percent="0.90" style="width: 412.2px;">Animation CSS3</div>
+              
+              <div class="item-skills" data-percent="0.80" style="width: 366.4px;">javascript</div>
               <div class="item-skills" data-percent="0.80" style="width: 366.4px;">jQuery</div>
               <div class="item-skills" data-percent="0.75" style="width: 343.5px;">PHP</div>
-               <div class="item-skills" data-percent="0.85" style="width: 366.5px;">Wordpress</div>
+              <div class="item-skills" data-percent="0.85" style="width: 366.5px;">Wordpress</div>
+               <div class="item-skills" data-percent="0.25" style="width: 114.5px;">Photoshop</div>
               <div class="item-skills" data-percent="0.25" style="width: 114.5px;">Node Js</div>
+              <div class="item-skills" data-percent="0.25" style="width: 114.5px;">MongoDb</div>
+              <div class="item-skills" data-percent="0.25" style="width: 114.5px;">Sails js Framework</div>
+              <div class="item-skills" data-percent="0.25" style="width: 114.5px;">Express js Framework</div>
+              <div class="item-skills" data-percent="0.25" style="width: 114.5px;">Socket.IO</div>
               <div class="skills-legend clearfix">
                 <div class="legend-left legend">Beginner</div>
                 <div class="legend-left legend"><span>Proficient</span></div>
@@ -201,5 +252,7 @@
         </div>
       </div>
     </div>
+        <script src="<?php bloginfo('template_directory'); ?>/menu-primary/js/classie.js"></script>
+    <script src="<?php bloginfo('template_directory'); ?>/menu-primary/js/main4.js"></script>
 	</body>
 </html>

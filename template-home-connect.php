@@ -60,9 +60,9 @@
 			<div class="menu-wrap">
 				<nav class="menu">
 					<div class="icon-list">
-						<a href="#"><i class="fa fa-home"></i><span>Home</span></a>
-						<a href="#"><i class="fa fa-archive"></i><span>Profile</span></a>
-						<a href="#"><i class="fa fa-file-o"></i><span>Resume</span></a>
+						<a href="http://vienpn.16mb.com/"><i class="fa fa-home"></i><span>Home</span></a>
+						<a href="http://vienpn.16mb.com/?page_id=5"><i class="fa fa-archive"></i><span>Profile</span></a>
+						<a href="http://vienpn.16mb.com/?page_id=14"><i class="fa fa-file-o"></i><span>Resume</span></a>
 						<a href="#"><i class="fa fa-newspaper-o"></i><span>News</span></a>
 						<a href="#"><i class="fa fa-inbox fa-envelope-o"></i><span>Contact</span></a>
 						<a href="#"><i class="fa fa-fw fa-bar-chart-o"></i><span>Analytics</span></a>

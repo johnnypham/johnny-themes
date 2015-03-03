@@ -746,7 +746,7 @@ font-family:  'Open Sans', Arial, Tahoma;
 		<script src="<?php bloginfo('template_directory'); ?>/portfolio/js/modernizr.custom.js"></script>
 		<script>
 			jQuery(function() {
-				// $(' #og-grid>li>a ').each( function() { $(this).hoverdir(); } );
+				 $(' #og-grid>li>a ').each( function() { $(this).hoverdir(); } );
 
 				// jQuery('.search_filter').on('click',function(){
 
